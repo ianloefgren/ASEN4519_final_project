@@ -35,22 +35,24 @@ void InitialSPI(void);
 void InitialRPG(void);
 void ReadButtons(void);
 void RPGHandler(void);
+void DisplayLCD(void);
 
 
 //Defining ports and Global Variables
-#define buttonSelect PORTHbits.RH0  //button for enter/select
-#define buttonMode PORTHbits.RH1    //button to change mode
-#define buttonLight PORTHbits.RH2   //button to turn light bulb on off on mode 2
+#define buttonSelect PORTJbits.RJ0  //button for enter/select
+#define buttonMode PORTJbits.RJ1    //button to change mode
+#define buttonLight PORTJbits.RJ2   //button to turn light bulb on off on mode 2
 #define RPGdata PORTEbits.RE4       //RPG data line
 char LCDstart1[] = {0x80,'M','O','D','E','=','1',' ',' ','L','E','D','=','A','U','T','O',0x00};
 char LCDstart2[] = {0xC0,'T','I','M','E','R','=','0','0',':','0','0',0x00};
-char LCDbuff[10]={0,0,0,0,0,0,0,0,0,0};
+char LCDbuff[11]={0,0,0,0,0,0,0,0,0,0,0};
 char mode =1;       //mode flag, 1 for mode 1 and 2 for mode 2
 char butflag = 0;   //flag to check if a button has been clicked
 char butbuf = 0;    //flag for storing button values
-int value = 0;      //Variable to store ADC conversion
+float value = 0;      //Variable to store ADC conversion
+float LEDtemp = 0;  //temporary LED calculation
 int LED = 0;        //variable to store led brightness percentage
-
+char bulb = 0;
 
 
 #pragma code highVector=0x08
@@ -77,10 +79,13 @@ void main(void) {
         
         ReadButtons();
         
+        DisplayLCD();
+        
         while (BusyADC()){ //wait until conversion is over
         }
         value = ReadADC(); //read the value converted
-        LED = value/4096*100;//convert into percent
+        LEDtemp= (float)value*100/4096;
+        LED = (int)LEDtemp;//convert into int
     }
 }
 
@@ -107,7 +112,7 @@ void Initial(){
     //Initialize all RPG stuff
     InitialRPG();    
     
-    TRISH=0B11111111; //Set all H as input (only going to use 0 1 and 2) for buttons
+    TRISJ=0B11111111; //Set all J as input (only going to use 0 1 and 2) for buttons
     TRISD=0B00000000;
     
     DisplayV(LCDstart1);    //Display LCD initial interface
@@ -129,10 +134,11 @@ void InitialRPG(){
 //Initializing ADC for the use of potentiometer. This potentiometer would read
 //its value and control an LED through PWM on the other PIC microcontroller
 void InitialADC(){
-    ADCON0=00011000;      //Select AN6 (RF1) to use P3 potentiometer
+    TRISFbits.TRISF1=1;   //set RF1 as input
+    ADCON0=0B00011000;      //Select AN6 (RF1) to use P3 potentiometer
     ADCON1=0B00110000;    //ECCP2,Internal Vref+,AVSS, AVss
     ADCON2=0B10101101;    //Right Justified, 12 TAD, Fosc/16
-    
+    ADCON0bits.ADON=1;    //Turn on ADC
 }
 
 void InitialSPI(){
@@ -141,8 +147,8 @@ void InitialSPI(){
 
 //Read all the buttons and do commands, button will be triggered on release
 void ReadButtons(){
-    butbuf = PORTH;     //store porth input in a variable
-    if (butbuf){         //Check if Porth not 0, a button has been pressed
+    butbuf = PORTJ;     //store portJ input in a variable
+    if (butbuf){         //Check if PortJ not 0, a button has been pressed
         butflag=butbuf;  //Set flag on the responding pressed button
     }
     if(!butbuf && butflag){  //check if any flag is on while button not pressed
@@ -152,14 +158,14 @@ void ReadButtons(){
         else if(butflag & 2){   //check if buttonMode that triggers
             if(mode == 1){      //if mode 1 change to mode 2,
                 mode++;
-                LATDbits.LATD1=1;
-                sprintf(LCDbuff,"%c%c%c",0x85,2,0x00);
+                sprintf(LCDbuff,"%c%c%c",0x85,0x32,0x00);
                 DisplayV(LCDbuff);
-                sprintf(LCDbuff,"%c%i%%c",0x8C,LED,0x00);
-                
+                if (bulb )
+                sprintf(LCDbuff,"%cBulb ON%c",0xc6);
             }
             else{
-                mode--;         //and if mode 2 change to mode 1
+                mode--;         //and if mode 2 change to mode 1                
+                DisplayV(LCDstart1);
             }
         }
         else if(butflag & 4){   //check if buttonLight that triggers
@@ -172,6 +178,20 @@ void ReadButtons(){
     }  
 }
 
+void DisplayLCD(){
+    if (mode ==2){
+        if(LED >=100){
+            sprintf(LCDbuff,"%c%i%%c",0x8C,LED,0x00);
+        }
+        else if(LED>=10){
+            sprintf(LCDbuff,"%c %i%%c",0x8C,LED,0x00);
+        }
+        else{
+            sprintf(LCDbuff,"%c  %i%%c",0x8C,LED,0x00);
+        }
+        DisplayV(LCDbuff);
+    }
+}
 //High priority interrupt
 #pragma interrupt HiPriISR
 void HiPriISR() {
