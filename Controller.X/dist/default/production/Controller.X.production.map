@@ -1,5 +1,5 @@
 MPLINK 5.00, LINKER
-Linker Map File - Created Sun Dec 10 17:28:21 2017
+Linker Map File - Created Mon Dec 11 18:50:32 2017
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -11,52 +11,52 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                 lowVector       code   0x000018    program   0x000006
                    .cinit    romdata   0x00001e    program   0x00001a
          .code_vfprintf.o       code   0x000038    program   0x000c22
-                     PROG       code   0x000c5a    program   0x00036e
-   .code_ControllerMain.o       code   0x000fc8    program   0x0002e0
-.code_LCDroutinesEasyPic.o       code   0x0012a8    program   0x00025a
-          .code_sprintf.o       code   0x001502    program   0x0000ac
-               _cinit_scn       code   0x0015ae    program   0x00009e
-                   STRING       code   0x00164c    program   0x000098
-             .code_putc.o       code   0x0016e4    program   0x000084
-          .code_fxm3232.o       code   0x001768    program   0x000070
-         .code_fxd3232u.o       code   0x0017d8    program   0x000048
-             D10KTCYXCODE       code   0x001820    program   0x00002e
-                    CTYPE       code   0x00184e    program   0x000024
-             .stringtable    romdata   0x001872    program   0x000022
-                    .code       code   0x001894    program   0x000020
-             _startup_scn       code   0x0018b4    program   0x00001c
-                    STDIO       code   0x0018d0    program   0x00001c
-              D10TCYXCODE       code   0x0018ec    program   0x000016
-          .code_adcread.o       code   0x001902    program   0x000012
-      .romdata_vfprintf.o    romdata   0x001914    program   0x000011
-.romdata_LCDroutinesEasyPic.o    romdata   0x001925    program   0x000007
-          .code_adcconv.o       code   0x00192c    program   0x000004
-           .code___init.o       code   0x001930    program   0x000002
-      .idata_vfprintf.o_i    romdata   0x001932    program   0x000000
-      .idata_fxd3232u.o_i    romdata   0x001932    program   0x000000
-         .idata_c018i.o_i    romdata   0x001932    program   0x000000
-      .romdata_fxd3232u.o    romdata   0x001932    program   0x000000
-       .idata_fxm3232.o_i    romdata   0x001932    program   0x000000
-       .romdata_fxm3232.o    romdata   0x001932    program   0x000000
-         .romdata_c018i.o    romdata   0x001932    program   0x000000
-          .idata_putc.o_i    romdata   0x001932    program   0x000000
-          .romdata_putc.o    romdata   0x001932    program   0x000000
-    .idata__user_putc.o_i    romdata   0x001932    program   0x000000
-    .romdata__user_putc.o    romdata   0x001932    program   0x000000
-.romdata_ControllerMain.o    romdata   0x001932    program   0x000000
-.idata_LCDroutinesEasyPic.o_i    romdata   0x001932    program   0x000003
-       .idata_adcbusy.o_i    romdata   0x001932    program   0x000000
-       .romdata_adcbusy.o    romdata   0x001932    program   0x000000
-       .idata_adcconv.o_i    romdata   0x001932    program   0x000000
-       .romdata_adcconv.o    romdata   0x001932    program   0x000000
-       .idata_adcread.o_i    romdata   0x001932    program   0x000000
-       .romdata_adcread.o    romdata   0x001932    program   0x000000
-        .idata___init.o_i    romdata   0x001932    program   0x000000
-        .romdata___init.o    romdata   0x001932    program   0x000000
-       .idata_sprintf.o_i    romdata   0x001932    program   0x000000
-       .romdata_sprintf.o    romdata   0x001932    program   0x000000
-.idata_ControllerMain.o_i    romdata   0x001935    program   0x000036
-            .code_c018i.o       code   0x00196c    program   0x000000
+   .code_ControllerMain.o       code   0x000c5a    program   0x000390
+                     PROG       code   0x000fea    program   0x00036e
+.code_LCDroutinesEasyPic.o       code   0x001358    program   0x00025a
+          .code_sprintf.o       code   0x0015b2    program   0x0000ac
+               _cinit_scn       code   0x00165e    program   0x00009e
+                   STRING       code   0x0016fc    program   0x000098
+             .code_putc.o       code   0x001794    program   0x000084
+          .code_fxm3232.o       code   0x001818    program   0x000070
+         .code_fxd3232u.o       code   0x001888    program   0x000048
+             .stringtable    romdata   0x0018d0    program   0x000047
+        .idata___init.o_i    romdata   0x001917    program   0x000000
+        .romdata___init.o    romdata   0x001917    program   0x000000
+       .idata_sprintf.o_i    romdata   0x001917    program   0x000000
+       .romdata_sprintf.o    romdata   0x001917    program   0x000000
+      .idata_vfprintf.o_i    romdata   0x001917    program   0x000000
+      .idata_fxd3232u.o_i    romdata   0x001917    program   0x000000
+      .romdata_fxd3232u.o    romdata   0x001917    program   0x000000
+       .idata_fxm3232.o_i    romdata   0x001917    program   0x000000
+       .romdata_fxm3232.o    romdata   0x001917    program   0x000000
+          .idata_putc.o_i    romdata   0x001917    program   0x000000
+          .romdata_putc.o    romdata   0x001917    program   0x000000
+    .idata__user_putc.o_i    romdata   0x001917    program   0x000000
+    .romdata__user_putc.o    romdata   0x001917    program   0x000000
+         .romdata_c018i.o    romdata   0x001917    program   0x000000
+         .idata_c018i.o_i    romdata   0x001917    program   0x000000
+.romdata_ControllerMain.o    romdata   0x001917    program   0x000000
+       .idata_adcbusy.o_i    romdata   0x001917    program   0x000000
+       .romdata_adcbusy.o    romdata   0x001917    program   0x000000
+       .idata_adcconv.o_i    romdata   0x001917    program   0x000000
+       .romdata_adcconv.o    romdata   0x001917    program   0x000000
+       .idata_adcread.o_i    romdata   0x001917    program   0x000000
+       .romdata_adcread.o    romdata   0x001917    program   0x000000
+             D10KTCYXCODE       code   0x001918    program   0x00002e
+            .code_c018i.o       code   0x001918    program   0x000000
+                    CTYPE       code   0x001946    program   0x000024
+                    .code       code   0x00196a    program   0x000020
+             _startup_scn       code   0x00198a    program   0x00001c
+                    STDIO       code   0x0019a6    program   0x00001c
+              D10TCYXCODE       code   0x0019c2    program   0x000016
+          .code_adcread.o       code   0x0019d8    program   0x000012
+      .romdata_vfprintf.o    romdata   0x0019ea    program   0x000011
+.romdata_LCDroutinesEasyPic.o    romdata   0x0019fb    program   0x000007
+          .code_adcconv.o       code   0x001a02    program   0x000004
+           .code___init.o       code   0x001a06    program   0x000002
+.idata_LCDroutinesEasyPic.o_i    romdata   0x001a08    program   0x000003
+.idata_ControllerMain.o_i    romdata   0x001a0b    program   0x000040
 .config_300000_ControllerMain.o    romdata   0x300000    program   0x000001
 .config_300001_ControllerMain.o    romdata   0x300001    program   0x000001
 .config_300002_ControllerMain.o    romdata   0x300002    program   0x000001
@@ -64,9 +64,10 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
 .config_300005_ControllerMain.o    romdata   0x300005    program   0x000001
                 MATH_DATA      udata   0x000000       data   0x000014
                  .tmpdata      udata   0x000014       data   0x000007
-                DELAYDAT2      udata   0x00001b       data   0x000001
-                DELAYDAT1      udata   0x00001c       data   0x000001
-  .idata_ControllerMain.o      idata   0x000060       data   0x000036
+             LoPriISR_tmp      udata   0x00001b       data   0x000004
+                DELAYDAT2      udata   0x00001f       data   0x000001
+                DELAYDAT1      udata   0x000020       data   0x000001
+  .idata_ControllerMain.o      idata   0x000060       data   0x000040
                    .stack      udata   0x000e00       data   0x000100
            .udata_c018i.o      udata   0x000f00       data   0x00000a
 .idata_LCDroutinesEasyPic.o      idata   0x000f0a       data   0x000003
@@ -101,10 +102,11 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                               Program Memory Usage 
                                Start         End      
                            ---------   ---------      
-                            0x000000    0x00196a      
+                            0x000000    0x001916      
+                            0x001918    0x001a4a      
                             0x300000    0x300003      
                             0x300005    0x300005      
-            6512 out of 132120 program addresses used, program memory utilization is 4%
+            6735 out of 132120 program addresses used, program memory utilization is 5%
 
 
 
@@ -112,68 +114,68 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
                   BusyADC   0x00000e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcbusy.c
-               ConvertADC   0x00192c    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c
-                   D10K_1   0x00182c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kl   0x001838    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kx   0x00182a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10_1   0x0018fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                     D10x   0x0018f4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-             Delay10KTCYx   0x001820    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-              Delay10TCYx   0x0018ec    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                 DisplayC   0x0013ca    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
-               DisplayLCD   0x001186    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                 DisplayV   0x00141e    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
-                 FLO1632S   0x000c5e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                 FLO1632U   0x000c5a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                    FPD32   0x000c84    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                    FPM32   0x000d2a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                 FXD3232U   0x0017d8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
-                 FXM1616S   0x000f6e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-                  FXM3232   0x001768    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
-                 HiPriISR   0x001238    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                  INT3216   0x000e04    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-                  InitLCD   0x0012a8    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
-                  Initial   0x001050    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-               InitialADC   0x0010a4    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-               InitialRPG   0x001090    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-               InitialSPI   0x0010b6    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-              LCDInitStr_   0x001925    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
-                 LoPriISR   0x001246    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-               RPGHandler   0x0012a4    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                  ReadADC   0x001902    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
-              ReadButtons   0x0010b8    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-               TSIGN1616A   0x000fba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-                   _2jEnd   0x0016ce    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-       _D10KTCYXCODE_0010   0x001830    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x00183c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-        _D10TCYXCODE_000A   0x0018f6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000C   0x0018f8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000E   0x0018fa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                 __FpExit   0x000e6e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                 __FpPack   0x000e9a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-            __FpReturnNaN   0x000e62    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-         __FpReturnNegInf   0x000e74    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnNegZero   0x000e8c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-         __FpReturnPosInf   0x000e7a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnPosZero   0x000e94    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnSignInf   0x000e70    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-       __FpReturnSignZero   0x000e88    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-              __FpReturnW   0x000ef2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-              __FpUnPackA   0x000f12    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-              __FpUnPackB   0x000f42    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-       ___return_lbl00000   0x00181e    program     static                          
+               ConvertADC   0x001a02    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c
+                   D10K_1   0x001924    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x001930    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x001922    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10_1   0x0019d2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                     D10x   0x0019ca    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+             Delay10KTCYx   0x001918    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+              Delay10TCYx   0x0019c2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                 DisplayC   0x00147a    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
+               DisplayLCD   0x000e50    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                 DisplayV   0x0014ce    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
+                 FLO1632S   0x000fee    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                 FLO1632U   0x000fea    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                    FPD32   0x001014    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                    FPM32   0x0010ba    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                 FXD3232U   0x001888    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                 FXM1616S   0x0012fe    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+                  FXM3232   0x001818    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
+                 HiPriISR   0x000f02    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                  INT3216   0x001194    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                  InitLCD   0x001358    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
+                  Initial   0x000ce2    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               InitialADC   0x000d46    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               InitialRPG   0x000d22    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               InitialSPI   0x000d58    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+              LCDInitStr_   0x0019fb    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
+                 LoPriISR   0x000f26    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               RPGHandler   0x000fca    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                  ReadADC   0x0019d8    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
+              ReadButtons   0x000d5a    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               TSIGN1616A   0x00134a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+                   _2jEnd   0x00177e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+       _D10KTCYXCODE_0010   0x001928    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x001934    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+        _D10TCYXCODE_000A   0x0019cc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x0019ce    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x0019d0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                 __FpExit   0x0011fe    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                 __FpPack   0x00122a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+            __FpReturnNaN   0x0011f2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x001204    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x00121c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x00120a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x001224    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x001200    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x001218    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpReturnW   0x001282    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpUnPackA   0x0012a2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x0012d2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+       ___return_lbl00000   0x001886    program     static                          
        ___return_lbl00000   0x000004    program     static                          
+       ___return_lbl00000   0x0018ce    program     static                          
        ___return_lbl00000   0x00000c    program     static                          
-       ___return_lbl00000   0x0017d6    program     static                          
-       ___return_lbl00001   0x0018ce    program     static                          
        ___return_lbl00001   0x00001c    program     static                          
-       ___return_lbl00002   0x00164a    program     static                          
+       ___return_lbl00001   0x0019a4    program     static                          
+       ___return_lbl00002   0x0016fa    program     static                          
                __config_0   0x300000    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
                __config_1   0x300001    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
                __config_2   0x300002    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
                __config_3   0x300003    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
                __config_4   0x300005    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                   __init   0x001930    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+                   __init   0x001a06    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
                    __pa_0   0x000978    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
                    __pa_1   0x000980    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
                   __pa_10   0x000a34    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
@@ -221,85 +223,88 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                    __pa_7   0x0009e6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
                    __pa_8   0x0009f2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
                    __pa_9   0x000a14    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-               __string_0   0x00188d    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-               __string_1   0x001885    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-               __string_2   0x00187c    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-               __string_3   0x001872    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               __string_0   0x001910    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               __string_1   0x001904    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               __string_2   0x0018f7    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               __string_3   0x0018eb    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               __string_4   0x0018e3    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               __string_5   0x0018da    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               __string_6   0x0018d0    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
               __tmplbl_42   0x000b0e    program     static                          
               __tmplbl_43   0x000956    program     static                          
               __tmplbl_44   0x00093c    program     static                          
               __tmplbl_85   0x00008e    program     static                          
-            __zero_memory   0x001894    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                _do_cinit   0x0015ae    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+            __zero_memory   0x00196a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                _do_cinit   0x00165e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                   _false   0x00181a    program     static                          
-                 _startup   0x0018b4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-              _usart_putc   0x0018d0    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
+                   _false   0x0018ca    program     static                          
+                 _startup   0x00198a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+              _usart_putc   0x0019a6    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
                _user_putc   0x000006    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\_user_putc.c
              atHighVector   0x000008    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
               atLowVector   0x000018    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                compare_l   0x0018aa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                copy_loop   0x001620    program     static                          
-            copy_one_byte   0x001626    program     static                          
-                     done   0x00164a    program     static                          
-             done_copying   0x001634    program     static                          
-                  isdigit   0x00184e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-                 jANotInf   0x000ca2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                 jANotInf   0x000d48    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                jANotZero   0x000cb6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-              jBothFinite   0x000d56    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-             jBothNotZero   0x000d62    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                     jEnd   0x0016d0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                     jEnd   0x001698    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                     jEnd   0x00167c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\scpyp2r.asm
-                    jExit   0x000e60    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-                jHaveZero   0x000d5e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                jI2F16Beg   0x000c6e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                    jLoop   0x00168e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                    jLoop   0x001672    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\scpyp2r.asm
-                    jLoop   0x000cde    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                    jLoop   0x0016b8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                    jLoop   0x000e40    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-                jLoopExit   0x000e50    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-                   jMatch   0x00186e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-                     jMax   0x000e14    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-                  jMaxNeg   0x000e22    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-                  jMaxPos   0x000e18    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-                    jNext   0x000d04    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                jNoAdjust   0x000d02    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                 jNoMatch   0x001870    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-                  jNotInf   0x000e30    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-                  jPkLoop   0x000ea8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-             jPkRoundDone   0x000ef2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-               jPkRoundIt   0x000eda    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-             jPkShiftDone   0x000ec4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-           jReturnPosInf0   0x000e7e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-              jSignedZero   0x000cac    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                  jUnpkA1   0x000f1c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkA2   0x000f34    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkANZ   0x000f2a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkB1   0x000f4c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkB2   0x000f64    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkBNZ   0x000f5a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkNaN   0x000f3e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                    jZero   0x000e2a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-               jZero1and2   0x000e82    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                     loop   0x0018e0    program     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
-                     loop   0x0018c4    program     static                          
-                     loop   0x0017e6    program     static                          
-                   loop_h   0x0018a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                   loop_l   0x0018ac    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                     main   0x000fc8    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                     putc   0x0016e4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
-                 s_digits   0x001914    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                compare_l   0x001980    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                copy_loop   0x0016d0    program     static                          
+            copy_one_byte   0x0016d6    program     static                          
+                     done   0x0016fa    program     static                          
+             done_copying   0x0016e4    program     static                          
+                  isdigit   0x001946    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                 jANotInf   0x001032    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                 jANotInf   0x0010d8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                jANotZero   0x001046    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+              jBothFinite   0x0010e6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+             jBothNotZero   0x0010f2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                     jEnd   0x001748    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                     jEnd   0x00172c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\scpyp2r.asm
+                     jEnd   0x001780    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                    jExit   0x0011f0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                jHaveZero   0x0010ee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                jI2F16Beg   0x000ffe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                    jLoop   0x00173e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                    jLoop   0x00106e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                    jLoop   0x001768    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x0011d0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                    jLoop   0x001722    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\scpyp2r.asm
+                jLoopExit   0x0011e0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                   jMatch   0x001966    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                     jMax   0x0011a4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                  jMaxNeg   0x0011b2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                  jMaxPos   0x0011a8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                    jNext   0x001094    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                jNoAdjust   0x001092    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                 jNoMatch   0x001968    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                  jNotInf   0x0011c0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                  jPkLoop   0x001238    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkRoundDone   0x001282    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+               jPkRoundIt   0x00126a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkShiftDone   0x001254    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x00120e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              jSignedZero   0x00103c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                  jUnpkA1   0x0012ac    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x0012c4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x0012ba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x0012dc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x0012f4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x0012ea    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x0012ce    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                    jZero   0x0011ba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+               jZero1and2   0x001212    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                     loop   0x0019b6    program     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
+                     loop   0x00199a    program     static                          
+                     loop   0x001896    program     static                          
+                   loop_h   0x001978    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                   loop_l   0x001982    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                     main   0x000c5a    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                     putc   0x001794    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
+                 s_digits   0x0019ea    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
             s_put_n_chars   0x000038    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  sprintf   0x001502    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
-            strcpypgm2ram   0x00164c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\scpyp2r.asm
-                   strlen   0x00167e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                strlenpgm   0x00169a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                     test   0x0015c8    program     static                          
+                  sprintf   0x0015b2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
+            strcpypgm2ram   0x0016fc    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\scpyp2r.asm
+                   strlen   0x00172e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x00174a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                     test   0x001678    program     static                          
                  vfprintf   0x000064    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-               zero_block   0x0018a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+               zero_block   0x001978    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
@@ -413,8 +418,8 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                CVRCONbits   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
           CharDelayCount_   0x000f0b       data     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
          ClearDelayCount_   0x000f0c       data     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
-            DelayCounter1   0x00001c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd1.asm
-            DelayCounter2   0x00001b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd2.asm
+            DelayCounter1   0x000020       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd1.asm
+            DelayCounter2   0x00001f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd2.asm
                   ECCP1AS   0x000fbf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               ECCP1ASbits   0x000fbf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  ECCP1CON   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
@@ -491,8 +496,8 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                   LCDbuff   0x00007f       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
                 LCDstart1   0x000060       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
                 LCDstart2   0x000072       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                      LED   0x000094       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                  LEDtemp   0x000090       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                      LED   0x000095       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                  LEDtemp   0x000091       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
                    MEMCON   0x000f26       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                MEMCONbits   0x000f26       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    ODCON1   0x000f29       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
@@ -770,14 +775,18 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                   __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
                   __tmp_0   0x000014       data     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
                   __tmp_0   0x000014       data     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                   butbuf   0x00008b       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                  butflag   0x00008a       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                  __tmp_2   0x00001b       data     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                   bounce   0x000098       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                     bulb   0x000097       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                   butbuf   0x00008c       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                  butflag   0x00008b       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
                 curr_byte   0x000f03       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                curr_entry   0x000f05       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                  data_ptr   0x000f07       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     mode   0x000089       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                   millis   0x00009c       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                     mode   0x00008a       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
                      prom   0x000f00       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                    value   0x00008c       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                    value   0x00008d       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
 
 
 
@@ -845,142 +854,145 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                   __pa_44   0x000c3a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
                   __pa_45   0x000c44    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
                   __pa_46   0x000c50    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                 FLO1632U   0x000c5a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                 FLO1632S   0x000c5e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                jI2F16Beg   0x000c6e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                    FPD32   0x000c84    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                 jANotInf   0x000ca2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-              jSignedZero   0x000cac    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                jANotZero   0x000cb6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                    jLoop   0x000cde    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                jNoAdjust   0x000d02    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                    jNext   0x000d04    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                    FPM32   0x000d2a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                 jANotInf   0x000d48    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-              jBothFinite   0x000d56    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                jHaveZero   0x000d5e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-             jBothNotZero   0x000d62    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                  INT3216   0x000e04    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-                     jMax   0x000e14    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-                  jMaxPos   0x000e18    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-                  jMaxNeg   0x000e22    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-                    jZero   0x000e2a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-                  jNotInf   0x000e30    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-                    jLoop   0x000e40    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-                jLoopExit   0x000e50    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-                    jExit   0x000e60    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
-            __FpReturnNaN   0x000e62    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                 __FpExit   0x000e6e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnSignInf   0x000e70    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-         __FpReturnNegInf   0x000e74    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-         __FpReturnPosInf   0x000e7a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-           jReturnPosInf0   0x000e7e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-               jZero1and2   0x000e82    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-       __FpReturnSignZero   0x000e88    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnNegZero   0x000e8c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnPosZero   0x000e94    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                 __FpPack   0x000e9a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                  jPkLoop   0x000ea8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-             jPkShiftDone   0x000ec4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-               jPkRoundIt   0x000eda    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-              __FpReturnW   0x000ef2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-             jPkRoundDone   0x000ef2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-              __FpUnPackA   0x000f12    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkA1   0x000f1c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkANZ   0x000f2a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkA2   0x000f34    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkNaN   0x000f3e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-              __FpUnPackB   0x000f42    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkB1   0x000f4c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkBNZ   0x000f5a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkB2   0x000f64    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 FXM1616S   0x000f6e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-               TSIGN1616A   0x000fba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-                     main   0x000fc8    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                  Initial   0x001050    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-               InitialRPG   0x001090    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-               InitialADC   0x0010a4    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-               InitialSPI   0x0010b6    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-              ReadButtons   0x0010b8    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-               DisplayLCD   0x001186    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                 HiPriISR   0x001238    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                 LoPriISR   0x001246    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-               RPGHandler   0x0012a4    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                  InitLCD   0x0012a8    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
-                 DisplayC   0x0013ca    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
-                 DisplayV   0x00141e    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
-                  sprintf   0x001502    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
-                _do_cinit   0x0015ae    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     test   0x0015c8    program     static                          
-                copy_loop   0x001620    program     static                          
-            copy_one_byte   0x001626    program     static                          
-             done_copying   0x001634    program     static                          
-       ___return_lbl00002   0x00164a    program     static                          
-                     done   0x00164a    program     static                          
-            strcpypgm2ram   0x00164c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\scpyp2r.asm
-                    jLoop   0x001672    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\scpyp2r.asm
-                     jEnd   0x00167c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\scpyp2r.asm
-                   strlen   0x00167e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                    jLoop   0x00168e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                     jEnd   0x001698    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                strlenpgm   0x00169a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                    jLoop   0x0016b8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                   _2jEnd   0x0016ce    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                     jEnd   0x0016d0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                     putc   0x0016e4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
-                  FXM3232   0x001768    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
-       ___return_lbl00000   0x0017d6    program     static                          
-                 FXD3232U   0x0017d8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
-                     loop   0x0017e6    program     static                          
-                   _false   0x00181a    program     static                          
-       ___return_lbl00000   0x00181e    program     static                          
-             Delay10KTCYx   0x001820    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kx   0x00182a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                   D10K_1   0x00182c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_0010   0x001830    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kl   0x001838    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x00183c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                  isdigit   0x00184e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-                   jMatch   0x00186e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-                 jNoMatch   0x001870    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-               __string_3   0x001872    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-               __string_2   0x00187c    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-               __string_1   0x001885    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-               __string_0   0x00188d    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-            __zero_memory   0x001894    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                   loop_h   0x0018a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-               zero_block   0x0018a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                compare_l   0x0018aa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                   loop_l   0x0018ac    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                 _startup   0x0018b4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     loop   0x0018c4    program     static                          
-       ___return_lbl00001   0x0018ce    program     static                          
-              _usart_putc   0x0018d0    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
-                     loop   0x0018e0    program     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
-              Delay10TCYx   0x0018ec    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                     D10x   0x0018f4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000A   0x0018f6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000C   0x0018f8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000E   0x0018fa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                    D10_1   0x0018fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                  ReadADC   0x001902    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
-                 s_digits   0x001914    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-              LCDInitStr_   0x001925    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
-               ConvertADC   0x00192c    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c
-                   __init   0x001930    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+                     main   0x000c5a    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                  Initial   0x000ce2    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               InitialRPG   0x000d22    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               InitialADC   0x000d46    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               InitialSPI   0x000d58    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+              ReadButtons   0x000d5a    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               DisplayLCD   0x000e50    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                 HiPriISR   0x000f02    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                 LoPriISR   0x000f26    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               RPGHandler   0x000fca    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                 FLO1632U   0x000fea    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                 FLO1632S   0x000fee    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                jI2F16Beg   0x000ffe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                    FPD32   0x001014    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                 jANotInf   0x001032    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+              jSignedZero   0x00103c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                jANotZero   0x001046    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                    jLoop   0x00106e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                jNoAdjust   0x001092    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                    jNext   0x001094    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                    FPM32   0x0010ba    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                 jANotInf   0x0010d8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+              jBothFinite   0x0010e6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                jHaveZero   0x0010ee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+             jBothNotZero   0x0010f2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                  INT3216   0x001194    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                     jMax   0x0011a4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                  jMaxPos   0x0011a8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                  jMaxNeg   0x0011b2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                    jZero   0x0011ba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                  jNotInf   0x0011c0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                    jLoop   0x0011d0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                jLoopExit   0x0011e0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+                    jExit   0x0011f0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP16.asm
+            __FpReturnNaN   0x0011f2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                 __FpExit   0x0011fe    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x001200    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x001204    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x00120a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x00120e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+               jZero1and2   0x001212    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x001218    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x00121c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x001224    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                 __FpPack   0x00122a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                  jPkLoop   0x001238    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkShiftDone   0x001254    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+               jPkRoundIt   0x00126a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkRoundDone   0x001282    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpReturnW   0x001282    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpUnPackA   0x0012a2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkA1   0x0012ac    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x0012ba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x0012c4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x0012ce    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x0012d2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x0012dc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x0012ea    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x0012f4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 FXM1616S   0x0012fe    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+               TSIGN1616A   0x00134a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+                  InitLCD   0x001358    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
+                 DisplayC   0x00147a    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
+                 DisplayV   0x0014ce    program     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
+                  sprintf   0x0015b2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
+                _do_cinit   0x00165e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     test   0x001678    program     static                          
+                copy_loop   0x0016d0    program     static                          
+            copy_one_byte   0x0016d6    program     static                          
+             done_copying   0x0016e4    program     static                          
+                     done   0x0016fa    program     static                          
+       ___return_lbl00002   0x0016fa    program     static                          
+            strcpypgm2ram   0x0016fc    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\scpyp2r.asm
+                    jLoop   0x001722    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\scpyp2r.asm
+                     jEnd   0x00172c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\scpyp2r.asm
+                   strlen   0x00172e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                    jLoop   0x00173e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                     jEnd   0x001748    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x00174a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x001768    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                   _2jEnd   0x00177e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                     jEnd   0x001780    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                     putc   0x001794    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
+                  FXM3232   0x001818    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
+       ___return_lbl00000   0x001886    program     static                          
+                 FXD3232U   0x001888    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                     loop   0x001896    program     static                          
+                   _false   0x0018ca    program     static                          
+       ___return_lbl00000   0x0018ce    program     static                          
+               __string_6   0x0018d0    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               __string_5   0x0018da    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               __string_4   0x0018e3    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               __string_3   0x0018eb    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               __string_2   0x0018f7    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               __string_1   0x001904    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+               __string_0   0x001910    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+             Delay10KTCYx   0x001918    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x001922    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                   D10K_1   0x001924    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_0010   0x001928    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x001930    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x001934    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                  isdigit   0x001946    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                   jMatch   0x001966    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x001968    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+            __zero_memory   0x00196a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                   loop_h   0x001978    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+               zero_block   0x001978    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                compare_l   0x001980    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                   loop_l   0x001982    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                 _startup   0x00198a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     loop   0x00199a    program     static                          
+       ___return_lbl00001   0x0019a4    program     static                          
+              _usart_putc   0x0019a6    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
+                     loop   0x0019b6    program     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
+              Delay10TCYx   0x0019c2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                     D10x   0x0019ca    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000A   0x0019cc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x0019ce    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x0019d0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                    D10_1   0x0019d2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                  ReadADC   0x0019d8    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
+                 s_digits   0x0019ea    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+              LCDInitStr_   0x0019fb    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
+               ConvertADC   0x001a02    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c
+                   __init   0x001a06    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
                __config_0   0x300000    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
                __config_1   0x300001    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
                __config_2   0x300002    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
                __config_3   0x300003    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
                __config_4   0x300005    program     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                 __AARGB7   0x000000       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                   __REMB3   0x000000       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
-                  __REMB2   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB7   0x000000       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                  __AARGB6   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
-                  __REMB1   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB2   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                  __AARGB5   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
-                  __REMB0   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB1   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                  __AARGB4   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB0   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                  __AARGB3   0x000004       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                  __AARGB2   0x000005       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                  __AARGB1   0x000006       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
@@ -997,25 +1009,29 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                  __TEMPB3   0x000010       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                  __TEMPB2   0x000011       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                  __TEMPB1   0x000012       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
-                 __TEMPB0   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                    __TEMP   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                 __TEMPB0   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                   __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
                   __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
                   __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
                   __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
                   __tmp_0   0x000014       data     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
                   __tmp_0   0x000014       data     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-            DelayCounter2   0x00001b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd2.asm
-            DelayCounter1   0x00001c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd1.asm
+                  __tmp_2   0x00001b       data     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+            DelayCounter2   0x00001f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd2.asm
+            DelayCounter1   0x000020       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd1.asm
                 LCDstart1   0x000060       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
                 LCDstart2   0x000072       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
                   LCDbuff   0x00007f       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                     mode   0x000089       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                  butflag   0x00008a       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                   butbuf   0x00008b       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                    value   0x00008c       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                  LEDtemp   0x000090       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
-                      LED   0x000094       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                     mode   0x00008a       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                  butflag   0x00008b       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                   butbuf   0x00008c       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                    value   0x00008d       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                  LEDtemp   0x000091       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                      LED   0x000095       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                     bulb   0x000097       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                   bounce   0x000098       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
+                   millis   0x00009c       data     extern /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/ControllerMain.c
                      prom   0x000f00       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                 curr_byte   0x000f03       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                curr_entry   0x000f05       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
@@ -1023,14 +1039,14 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
           InitDelayCount_   0x000f0a       data     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
           CharDelayCount_   0x000f0b       data     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
          ClearDelayCount_   0x000f0c       data     static /home/nikolas/Drive/Sem 7/ASEN 4519 Microavionics/Project/ASEN4519_final_project/Controller.X/LCDroutinesEasyPic.c
-                 PMD3bits   0x000f16       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      PMD3   0x000f16       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                 PMD2bits   0x000f17       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                 PMD3bits   0x000f16       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      PMD2   0x000f17       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                 PMD2bits   0x000f17       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      PMD1   0x000f18       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  PMD1bits   0x000f18       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                 PMD0bits   0x000f19       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      PMD0   0x000f19       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                 PMD0bits   0x000f19       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  PSTR3CON   0x000f1a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
              PSTR3CONbits   0x000f1a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  PSTR2CON   0x000f1b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
@@ -1039,8 +1055,8 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                    RCREG2   0x000f1d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    SPBRG2   0x000f1e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   SPBRGH2   0x000f1f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-             BAUDCON2bits   0x000f20       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  BAUDCON2   0x000f20       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+             BAUDCON2bits   0x000f20       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    TXSTA2   0x000f21       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                TXSTA2bits   0x000f21       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    RCSTA2   0x000f22       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
@@ -1049,28 +1065,28 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                    ANCON2   0x000f23       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                ANCON1bits   0x000f24       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    ANCON1   0x000f24       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-               ANCON0bits   0x000f25       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    ANCON0   0x000f25       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                   MEMCON   0x000f26       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+               ANCON0bits   0x000f25       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                MEMCONbits   0x000f26       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                   ODCON3   0x000f27       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                   MEMCON   0x000f26       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                ODCON3bits   0x000f27       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-               ODCON2bits   0x000f28       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                   ODCON3   0x000f27       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    ODCON2   0x000f28       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+               ODCON2bits   0x000f28       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                ODCON1bits   0x000f29       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    ODCON1   0x000f29       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                  REFOCON   0x000f2a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               REFOCONbits   0x000f2a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                  REFOCON   0x000f2a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
              CCPTMRS2bits   0x000f2b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  CCPTMRS2   0x000f2b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-             CCPTMRS1bits   0x000f2c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  CCPTMRS1   0x000f2c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+             CCPTMRS1bits   0x000f2c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
              CCPTMRS0bits   0x000f2d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  CCPTMRS0   0x000f2d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-               CM3CONbits   0x000f2e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-              CM3CON1bits   0x000f2e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                  CM3CON1   0x000f2e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CM3CON   0x000f2e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                  CM3CON1   0x000f2e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+              CM3CON1bits   0x000f2e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+               CM3CONbits   0x000f2e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                CM2CONbits   0x000f2f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               CM2CON1bits   0x000f2f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   CM2CON1   0x000f2f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
@@ -1093,12 +1109,12 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                      TMR6   0x000f3b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    T7GCON   0x000f3c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                T7GCONbits   0x000f3c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                T7CONbits   0x000f3d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     T7CON   0x000f3d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                T7CONbits   0x000f3d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     TMR7L   0x000f3e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     TMR7H   0x000f3f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-             CCP10CONbits   0x000f40       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  CCP10CON   0x000f40       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+             CCP10CONbits   0x000f40       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   CCPR10L   0x000f41       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR10   0x000f41       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   CCPR10H   0x000f42       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
@@ -1107,59 +1123,59 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                     CCPR9   0x000f44       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR9L   0x000f44       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR9H   0x000f45       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                  CCP8CON   0x000f46       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               CCP8CONbits   0x000f46       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                  CCP8CON   0x000f46       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR8L   0x000f47       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     CCPR8   0x000f47       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR8H   0x000f48       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               CCP3CONbits   0x000f49       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   CCP3CON   0x000f49       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                    CCPR3   0x000f4a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR3L   0x000f4a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                    CCPR3   0x000f4a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR3H   0x000f4b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
              ECCP3DELbits   0x000f4c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  ECCP3DEL   0x000f4c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-              ECCP3ASbits   0x000f4d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   ECCP3AS   0x000f4d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+              ECCP3ASbits   0x000f4d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+             ECCP2CONbits   0x000f4e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                 ECCP2CON   0x000f4e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   CCP2CON   0x000f4e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               CCP2CONbits   0x000f4e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                 ECCP2CON   0x000f4e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-             ECCP2CONbits   0x000f4e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                    CCPR2   0x000f4f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR2L   0x000f4f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                    CCPR2   0x000f4f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR2H   0x000f50       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+              PWM2CONbits   0x000f51       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                  PWM2CON   0x000f51       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
              ECCP2DELbits   0x000f51       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  ECCP2DEL   0x000f51       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                  PWM2CON   0x000f51       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-              PWM2CONbits   0x000f51       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               ECCP2ASbits   0x000f52       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   ECCP2AS   0x000f52       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   PADCFG1   0x000f53       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               PADCFG1bits   0x000f53       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CM1CON   0x000f54       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                  CM1CON1   0x000f54       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-              CM1CON1bits   0x000f54       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                CM1CONbits   0x000f54       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-             CTMUICONbits   0x000f55       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+              CM1CON1bits   0x000f54       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                  CM1CON1   0x000f54       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  CTMUICON   0x000f55       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+             CTMUICONbits   0x000f55       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  CTMUCONL   0x000f56       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
              CTMUCONLbits   0x000f56       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                 CTMUCONH   0x000f57       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
              CTMUCONHbits   0x000f57       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                  ALRMVAL   0x000f58       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                 CTMUCONH   0x000f57       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  ALRMVALL   0x000f58       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                  ALRMVAL   0x000f58       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  ALRMVALH   0x000f59       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-              ALRMRPTbits   0x000f5a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   ALRMRPT   0x000f5a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-              ALRMCFGbits   0x000f5b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+              ALRMRPTbits   0x000f5a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   ALRMCFG   0x000f5b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                  RTCVALL   0x000f5c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+              ALRMCFGbits   0x000f5b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    RTCVAL   0x000f5c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                  RTCVALL   0x000f5c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   RTCVALH   0x000f5d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-               RTCCALbits   0x000f5e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    RTCCAL   0x000f5e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-               RTCCFGbits   0x000f5f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+               RTCCALbits   0x000f5e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    RTCCFG   0x000f5f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+               RTCCFGbits   0x000f5f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      PIE6   0x000f60       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  PIE6bits   0x000f60       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    EEDATA   0x000f61       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
@@ -1167,14 +1183,14 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                    EEADRH   0x000f63       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   OSCCON2   0x000f64       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               OSCCON2bits   0x000f64       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+              BAUDCTLbits   0x000f65       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                  BAUDCON   0x000f65       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                  BAUDCTL   0x000f65       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  BAUDCON1   0x000f65       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
              BAUDCON1bits   0x000f65       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               BAUDCONbits   0x000f65       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                  BAUDCTL   0x000f65       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-              BAUDCTLbits   0x000f65       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                  BAUDCON   0x000f65       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                 SSP2CON2   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
              SSP2CON2bits   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                 SSP2CON2   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  SSP2CON1   0x000f67       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
              SSP2CON1bits   0x000f67       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  SSP2STAT   0x000f68       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
@@ -1183,12 +1199,12 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                   SSP2MSK   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               SSP2MSKbits   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   SSP2BUF   0x000f6a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                T4CONbits   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     T4CON   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                T4CONbits   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                       PR4   0x000f6c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      TMR4   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-              CCP7CONbits   0x000f6e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   CCP7CON   0x000f6e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+              CCP7CONbits   0x000f6e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     CCPR7   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR7L   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR7H   0x000f70       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
@@ -1197,49 +1213,49 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                     CCPR6   0x000f72       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR6L   0x000f72       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR6H   0x000f73       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                  CCP5CON   0x000f74       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               CCP5CONbits   0x000f74       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                  CCP5CON   0x000f74       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR5L   0x000f75       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     CCPR5   0x000f75       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR5H   0x000f76       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   CCP4CON   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               CCP4CONbits   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                    CCPR4   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR4L   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                    CCPR4   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR4H   0x000f79       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    T5GCON   0x000f7a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                T5GCONbits   0x000f7a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                    T5CON   0x000f7b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                 T5CONbits   0x000f7b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                    T5CON   0x000f7b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     TMR5L   0x000f7c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     TMR5H   0x000f7d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    EECON2   0x000f7e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-               EECON1bits   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    EECON1   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                PORTAbits   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+               EECON1bits   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     PORTA   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                PORTAbits   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                 PORTBbits   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     PORTB   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                PORTCbits   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     PORTC   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                PORTCbits   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     PORTD   0x000f83       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                 PORTDbits   0x000f83       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     PORTE   0x000f84       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                 PORTEbits   0x000f84       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     PORTF   0x000f85       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                 PORTFbits   0x000f85       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                PORTGbits   0x000f86       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     PORTG   0x000f86       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                PORTHbits   0x000f87       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                PORTGbits   0x000f86       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     PORTH   0x000f87       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                PORTHbits   0x000f87       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                 PORTJbits   0x000f88       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     PORTJ   0x000f88       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  LATAbits   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      LATA   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  LATBbits   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      LATB   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                     LATC   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  LATCbits   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                     LATC   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  LATDbits   0x000f8c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      LATD   0x000f8c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  LATEbits   0x000f8d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
@@ -1248,18 +1264,18 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                  LATFbits   0x000f8e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      LATG   0x000f8f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  LATGbits   0x000f8f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                     LATH   0x000f90       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  LATHbits   0x000f90       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                     LATH   0x000f90       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      LATJ   0x000f91       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  LATJbits   0x000f91       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                    TRISA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                 TRISAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                TRISBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                    TRISA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     TRISB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                TRISBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     TRISC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                 TRISCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                    TRISD   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                 TRISDbits   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                    TRISD   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     TRISE   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                 TRISEbits   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     TRISF   0x000f97       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
@@ -1268,48 +1284,48 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                 TRISGbits   0x000f98       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     TRISH   0x000f99       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                 TRISHbits   0x000f99       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                TRISJbits   0x000f9a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     TRISJ   0x000f9a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                TRISJbits   0x000f9a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   OSCTUNE   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               OSCTUNEbits   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                 PSTR1CON   0x000f9c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
              PSTR1CONbits   0x000f9c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                 PIE1bits   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                 PSTR1CON   0x000f9c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      PIE1   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                 PIE1bits   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  PIR1bits   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      PIR1   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                 IPR1bits   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      IPR1   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                 IPR1bits   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  PIE2bits   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      PIE2   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                 PIR2bits   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      PIR2   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                 PIR2bits   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  IPR2bits   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      IPR2   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      PIE3   0x000fa3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  PIE3bits   0x000fa3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                 PIR3bits   0x000fa4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      PIR3   0x000fa4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                 PIR3bits   0x000fa4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      IPR3   0x000fa5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  IPR3bits   0x000fa5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      PIR6   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  PIR6bits   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                   PSPCON   0x000fa7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                PSPCONbits   0x000fa7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                   PSPCON   0x000fa7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               HLVDCONbits   0x000fa8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   HLVDCON   0x000fa8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                 IPR6bits   0x000fa9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      IPR6   0x000fa9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                 IPR6bits   0x000fa9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                T1GCONbits   0x000faa       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    T1GCON   0x000faa       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     RCSTA   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    RCSTA1   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                RCSTA1bits   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                 RCSTAbits   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                    TXSTA   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                   TXSTA1   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                TXSTAbits   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                TXSTA1bits   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                   TXSTA1   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                    TXSTA   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                TXSTAbits   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     TXREG   0x000fad       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    TXREG1   0x000fad       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     RCREG   0x000fae       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
@@ -1318,8 +1334,8 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                     SPBRG   0x000faf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    T3GCON   0x000fb0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                T3GCONbits   0x000fb0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                    T3CON   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                 T3CONbits   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                    T3CON   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     TMR3L   0x000fb2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     TMR3H   0x000fb3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                CMSTATbits   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
@@ -1328,75 +1344,75 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                    CMSTAT   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CVRCON   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                CVRCONbits   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                     PIE4   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  PIE4bits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                 PIR4bits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                     PIE4   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      PIR4   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                     IPR4   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                 PIR4bits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  IPR4bits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                     PIE5   0x000fb9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                     IPR4   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  PIE5bits   0x000fb9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                     PIE5   0x000fb9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      PIR5   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  PIR5bits   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-             ECCP1CONbits   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  ECCP1CON   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+             ECCP1CONbits   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               CCP1CONbits   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   CCP1CON   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                    CCPR1   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR1L   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                    CCPR1   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    CCPR1H   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                  PWM1CON   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-              PWM1CONbits   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  ECCP1DEL   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
              ECCP1DELbits   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                  ECCP1AS   0x000fbf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+              PWM1CONbits   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                  PWM1CON   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               ECCP1ASbits   0x000fbf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                  ECCP1AS   0x000fbf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                ADCON2bits   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    ADCON2   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                ADCON1bits   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                   ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                   ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     ADRES   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    ADRESL   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    ADRESH   0x000fc4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-              SSPCON2bits   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                  SSPCON2   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-             SSP1CON2bits   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  SSP1CON2   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                  SSPCON2   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+              SSPCON2bits   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+             SSP1CON2bits   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
              SSP1CON1bits   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  SSP1CON1   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   SSPCON1   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               SSPCON1bits   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                 SSP1STAT   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-             SSP1STATbits   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
               SSPSTATbits   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   SSPSTAT   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+             SSP1STATbits   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                 SSP1STAT   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   SSP1MSK   0x000fc8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-              SSP1MSKbits   0x000fc8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    SSPADD   0x000fc8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+              SSP1MSKbits   0x000fc8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   SSP1ADD   0x000fc8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                   SSPBUF   0x000fc9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   SSP1BUF   0x000fc9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                T2CONbits   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                   SSPBUF   0x000fc9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     T2CON   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                T2CONbits   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                       PR2   0x000fcb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      TMR2   0x000fcc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                T1CONbits   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     T1CON   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                T1CONbits   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     TMR1L   0x000fce       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     TMR1H   0x000fcf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      RCON   0x000fd0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  RCONbits   0x000fd0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    WDTCON   0x000fd1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                WDTCONbits   0x000fd1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                     IPR5   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  IPR5bits   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                   OSCCON   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                     IPR5   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                OSCCONbits   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                   OSCCON   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   SPBRGH1   0x000fd4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                T0CONbits   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     T0CON   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                T0CONbits   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     TMR0L   0x000fd6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     TMR0H   0x000fd7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    STATUS   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
@@ -1410,8 +1426,8 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                  POSTINC2   0x000fde       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     INDF2   0x000fdf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                       BSR   0x000fe0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                    FSR1L   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      FSR1   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                    FSR1L   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     FSR1H   0x000fe2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    PLUSW1   0x000fe3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   PREINC1   0x000fe4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
@@ -1427,22 +1443,22 @@ Linker Map File - Created Sun Dec 10 17:28:21 2017
                  POSTDEC0   0x000fed       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                  POSTINC0   0x000fee       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     INDF0   0x000fef       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-              INTCON3bits   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   INTCON3   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-              INTCON2bits   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+              INTCON3bits   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   INTCON2   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-               INTCONbits   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+              INTCON2bits   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    INTCON   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                    PRODL   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+               INTCONbits   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                      PROD   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                    PRODL   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                     PRODH   0x000ff4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    TABLAT   0x000ff5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   TBLPTRL   0x000ff6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    TBLPTR   0x000ff6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   TBLPTRH   0x000ff7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                   TBLPTRU   0x000ff8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
-                       PC   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                       PCL   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
+                       PC   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    PCLATH   0x000ffa       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                    PCLATU   0x000ffb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
                STKPTRbits   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f87k22.asm
