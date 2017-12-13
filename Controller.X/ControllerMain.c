@@ -45,7 +45,7 @@ void DisplayLCD(void);
 #define RPGdata PORTEbits.RE1       //RPG data line
 char LCDstart1[] = {0x80,'M','O','D','E','=','1',' ',' ','L','E','D','=','A','U','T','O',0x00};
 char LCDstart2[] = {0xC0,'T','I','M','E','R','=','0','0',':','0','0',0x00};
-char LCDbuff[11]={0,0,0,0,0,0,0,0,0,0,0};
+char LCDbuff[13]={0,0,0,0,0,0,0,0,0,0,0,0,0};
 char mode =1;       //mode flag, 1 for mode 1 and 2 for mode 2
 char butflag = 0;   //flag to check if a button has been clicked
 char butbuf = 0;    //flag for storing button values
@@ -59,6 +59,7 @@ int time = 0;       //variable to store the timer value
 char timepos = 0xC6;//position of the timer
 unsigned long blink = 0;//variable to store blinking effect timer
 char blinkf = 0;        //flag that tells that timer position needs to blink
+char LCDtime[5]={0x30,0x30,':',0x30,0x30};  
 
 
 #pragma code highVector=0x08
@@ -177,65 +178,69 @@ void ReadButtons(){
         butflag=butbuf;  //Set flag on the responding pressed button
     }
     if(!butbuf && butflag){  //check if any flag is on while button not pressed
-        if(butflag & 1){        //check if buttonselect that triggers
-            
-        }
-        else if(butflag & 2){   //check if buttonMode that triggers
+        if(butflag & 2){   //check if buttonMode that triggers
             if(mode == 1){      //if mode 1 change to mode 2,
                 mode++;
                 sprintf(LCDbuff,"%c%c%c",0x85,0x32,0x00);
                 DisplayV(LCDbuff);
-                if (bulb){
-                    sprintf(LCDbuff,"%cBulb ON  %c",0xc6);
+                if ( bulb == 1){
+                    sprintf(LCDbuff,"%cBulb ON   %c",0xC6,0x00);
                 }
                 else{
-                    sprintf(LCDbuff,"%cBulb Off %c",0xc6);
+                    sprintf(LCDbuff,"%cBulb Off  %c",0xC6,0x00);
                 }
                 DisplayV(LCDbuff);
             }
             else{
                 mode--;         //and if mode 2 change to mode 1                
                 DisplayV(LCDstart1);
+                sprintf(LCDbuff,"%c%c%c:%c%c   %c",0XC6,LCDtime[0],LCDtime[1],LCDtime[3],LCDtime[4],0x00);
+                DisplayV(LCDbuff);
             }
         }
         else if(butflag & 4){   //check if buttonLight that triggers
             if(mode == 2){
                 if (bulb){
                     bulb--;
-                    sprintf(LCDbuff,"%cBulb Off %c",0xc6);                    
+                    sprintf(LCDbuff,"%cBulb Off  %c",0xc6,0x00);                    
                 }
                 else{
                     bulb++;
-                    sprintf(LCDbuff,"%cBulb On  %c",0xc6);
+                    sprintf(LCDbuff,"%cBulb On   %c",0xc6,0x00);
                 }
                 DisplayV(LCDbuff);
             }
         }
-        else if(butflag & 8){   //check if  
+        else if(butflag & 8){   //check if buttonsync triggered 
             
         }
         else if((butflag & 128) && mode == 1 && timepos < 0xCA ){ // Check if button right <7> has been triggered
             timepos++;
+            if (timepos == 0xC8){
+                timepos++;          //increase again if in ':' position
+            }
             sprintf(LCDbuff,"%c %c",timepos,0x00);
             DisplayV(LCDbuff);
             blink = millis;                   
             blinkf=1;            
-        }   //
+        }
         else if((butflag & 64) && mode == 1 && timepos > 0xC6){  // Check if button left <6> has been triggered
             timepos--;
+            if (timepos == 0xC8){
+                timepos--;          //decrease again if in ':' position
+            }
             sprintf(LCDbuff,"%c %c",timepos,0x00);
             DisplayV(LCDbuff);
             blink = millis;                   
             blinkf=1;
         }
-            
         butflag=0;
     }  
 }
 
 // This subroutine is for LCD display that needs to be constantly updated
 void DisplayLCD(){
-    if (mode == 2){
+    if (mode == 2){         //update LED percentage on the LCD
         if(LED >=100){
             sprintf(LCDbuff,"%c%i%%c",0x8C,LED,0x00);
         }
@@ -247,12 +252,13 @@ void DisplayLCD(){
         }
         DisplayV(LCDbuff);
     }
-    if (blinkf == 1 && millis-blink >= 40){
+    if (blinkf == 1 && millis-blink >= 40){ // Blink back the value after some timer
         blinkf = 0;
-        sprintf(LCDbuff,"%c0%c",timepos,0x00);
+        sprintf(LCDbuff,"%c%c%c",timepos,LCDtime[timepos-0xC6],0x00);
         DisplayV(LCDbuff);
     }
 }
+
 //High priority interrupt
 #pragma interrupt HiPriISR
 void HiPriISR() {
@@ -271,6 +277,7 @@ void LoPriISR() {
             bounce = millis;
             continue;
         }
+        PIR4bits.CCP6IF=0;  //clear ccp6 interrupt flag
         break;
     }
 }
@@ -278,22 +285,23 @@ void LoPriISR() {
 void RPGHandler() {
     if (mode == 1){      //check if on mode 1 (light bulb timer mode)
         if (RPGdata){   //
-            
-            if (PORTDbits.RD7){
-                LATDbits.LATD7=0;
+            if ((timepos == 0xC6 || timepos == 0xC7 || timepos == 0xCA) && LCDtime[timepos - 0xC6] < 0x39){
+                LCDtime[timepos - 0xC6]++;
+                sprintf(LCDbuff,"%c%c%c",timepos,LCDtime[timepos-0xC6],0x00);
+                DisplayV(LCDbuff);                        
             }
-            else{
-                LATDbits.LATD7=1;
+            else if (LCDtime[timepos-0xC6] < 0x35){
+                LCDtime[timepos - 0xC6]++;
+                sprintf(LCDbuff,"%c%c%c",timepos,LCDtime[timepos-0xC6],0x00);
+                DisplayV(LCDbuff);
             }
         }
         else{
-            if (PORTDbits.RD7){
-                LATDbits.LATD7=0;
-            }
-            else{
-                LATDbits.LATD7=1;
+            if (LCDtime[timepos-0xC6] > 0x30){
+                LCDtime[timepos - 0xC6]--;
+                sprintf(LCDbuff,"%c%c%c",timepos,LCDtime[timepos-0xC6],0x00);
+                DisplayV(LCDbuff);
             }
         }
     }
-    PIR4bits.CCP6IF=0;  //clear ccp6 interrupt flag
 }
